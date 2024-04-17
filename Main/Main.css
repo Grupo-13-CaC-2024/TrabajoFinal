@@ -6,11 +6,12 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100hv;
+    min-height: 100vh;
 }
 
 .RevetriaMatias{
-    width: 420px;
+    width: 40em;
+    text-align: center;
     background-color: brown;
 }
 
