@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+ }
+
+.background-header-hollow
+{
+    display: flex;
+    justify-content: center;
+    aspect-ratio:  4 / 1;
+}
