@@ -3,7 +3,19 @@ html{
     box-sizing: border-box;
 }
 
-body{
+header{
+    background-color:salmon;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 15vh;
+}
+
+.titulo-header{
+    position: absolute;
+}
+
+main{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -11,7 +23,7 @@ body{
 }
 
 .RevetriaMatias{
-    position: relative;
+    position: absolute;
     width: 25em;
     height: 30em;
     border-radius: 3em;
