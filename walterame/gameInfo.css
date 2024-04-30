@@ -1,12 +1,14 @@
-*{
-    margin: 0;
-    padding: 0;
-    background-color: black;
- }
+* {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
 
-.background-header-hollow
-{
-    display: flex;
-    justify-content: center;
-    aspect-ratio:  4 / 1;
+header {
+  width: 100%;
+}
+
+.Header-Hollow-Knight {
+  width: 100%;
+  height: auto;
 }
