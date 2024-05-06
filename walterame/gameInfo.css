@@ -8,7 +8,51 @@ header {
   width: 100%;
 }
 
-.Header-Hollow-Knight {
+.headerHollowKnight {
   width: 100%;
   height: auto;
+}
+
+.mainHolder {
+  margin: 4em;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  font-size: 2.3em;
+  margin-bottom: 1em;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+p {
+  font-size: 1.5em;
+}
+
+.columnsHolder {
+  display: flex;
+  justify-content: space-between;
+}
+
+.textAndImageColumn1,
+.textAndImageColumn2 {
+  width: 40%;
+  height: 90em;
+  display: grid;
+  align-content: space-around;
+}
+
+.imgColumn {
+  width: 100%;
+  height: auto;
+}
+
+.textColumn {
+  display: grid;
+  align-content: space-around;
+  text-align: left;
+  color: white;
 }
