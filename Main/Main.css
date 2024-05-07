@@ -9,6 +9,7 @@ header{
     justify-content: center;
     align-items: center;
     min-height: 15vh;
+    border-radius: 50px;
 }
 
 .titulo-header{
@@ -33,8 +34,6 @@ main{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    cursor: pointer;
-    color: #333;
 }
 
 
@@ -46,6 +45,12 @@ main{
     transform: translate(-50%);
     border-radius: 5em;
     backdrop-filter: blur(20px);
+    color: #fff;
+    cursor: pointer;
+}
+
+.RevetriaMatias .titulo a{
+    text-decoration: none;
     color: #fff;
 }
 

@@ -1,0 +1,18 @@
+html{
+    font-size: 62.5%;
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+    background-color: blueviolet;
+    border-radius: 5px;
+}
+
+.body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+}
