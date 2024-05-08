@@ -2,6 +2,8 @@
   margin: 0;
   padding: 0;
   background-color: black;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
 }
 
 header {
@@ -14,7 +16,7 @@ header {
 }
 
 .mainHolder {
-  margin: 4em;
+  margin: 4em 10em;
 }
 
 h1 {
@@ -22,37 +24,46 @@ h1 {
   text-align: center;
   font-size: 2.3em;
   margin-bottom: 1em;
+  font-weight: 500;
 }
 
 h2 {
   font-size: 2em;
+  font-weight: 400;
 }
 
-p {
-  font-size: 1.5em;
+p,
+ul {
+  font-size: 1.2em;
+  font-weight: 200;
 }
 
-.columnsHolder {
+.rowsHolder {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  margin: 3em 1em;
+}
+
+.imageAndText,
+.textAndImage {
+  width: 100%;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
-.textAndImageColumn1,
-.textAndImageColumn2 {
-  width: 40%;
-  height: 90em;
-  display: grid;
-  align-content: space-around;
-}
-
-.imgColumn {
-  width: 100%;
+.imgInRow {
+  width: 48%;
   height: auto;
 }
 
-.textColumn {
-  display: grid;
-  align-content: space-around;
+.textInRow {
+  width: 45%;
   text-align: left;
   color: white;
 }
