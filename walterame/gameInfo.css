@@ -1,18 +1,35 @@
 * {
   margin: 0;
   padding: 0;
-  background-color: black;
   font-family: "Poppins", sans-serif;
   font-style: normal;
 }
 
 header {
   width: 100%;
+  background-color: black;
+}
+
+nav {
+  display: flex;
+  height: 6em;
+  background-color: rgb(40, 207, 110);
+}
+.navLinks {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 1em;
 }
 
 .headerHollowKnight {
   width: 100%;
   height: auto;
+  background-color: black;
+}
+
+body {
+  background-color: black;
 }
 
 .mainHolder {
