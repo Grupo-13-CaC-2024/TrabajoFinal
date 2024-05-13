@@ -35,7 +35,7 @@ h2 {
 p,
 ul {
   font-size: 1.2em;
-  font-weight: 200;
+  font-weight: 300;
 }
 
 .rowsHolder {
@@ -66,4 +66,26 @@ ul {
   width: 45%;
   text-align: left;
   color: white;
+}
+
+.video-container {
+  position: relative;
+  display: flex;
+}
+
+@media (max-width: 1250px) {
+  .imageAndText,
+  .textAndImage {
+    flex-direction: column;
+  }
+  .mainHolder {
+    margin: 3em 0em;
+  }
+  .imgInRow {
+    width: 70%;
+    height: auto;
+  }
+  .textInRow {
+    width: 70%;
+  }
 }
