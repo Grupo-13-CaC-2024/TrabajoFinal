@@ -3,7 +3,20 @@ html{
     box-sizing: border-box;
 }
 
-body{
+header{
+    background-color:salmon;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 15vh;
+    border-radius: 50px;
+}
+
+.titulo-header{
+    position: absolute;
+}
+
+main{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -11,7 +24,7 @@ body{
 }
 
 .RevetriaMatias{
-    position: relative;
+    position: absolute;
     width: 25em;
     height: 30em;
     border-radius: 3em;
@@ -21,8 +34,6 @@ body{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    cursor: pointer;
-    color: #333;
 }
 
 
@@ -34,6 +45,12 @@ body{
     transform: translate(-50%);
     border-radius: 5em;
     backdrop-filter: blur(20px);
+    color: #fff;
+    cursor: pointer;
+}
+
+.RevetriaMatias .titulo a{
+    text-decoration: none;
     color: #fff;
 }
 
