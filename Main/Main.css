@@ -47,7 +47,19 @@ header {
   background-repeat: no-repeat;
 }
 
-.RevetriaMatias .titulo .alan-wake2 {
+.hollow-knight {
+  width: 25em;
+  height: 30em;
+  border-radius: 3em;
+  border: 2px solid #333;
+  color: black;
+  background-image: url(images/hollow-knight.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.RevetriaMatias .alan-wake2 .hollow-knight .titulo {
   position: absolute;
   top: 45%;
   left: 50%;
@@ -59,7 +71,7 @@ header {
   cursor: pointer;
 }
 
-.RevetriaMatias .alan-wake2 .titulo a {
+.RevetriaMatias .alan-wake2 .hollow-knight .titulo a {
   text-decoration: none;
   color: #fff;
 }
@@ -69,5 +81,9 @@ header {
 }
 
 .alan-wake2:hover {
+  transform: scale(1.5);
+}
+
+.hollow-knight:hover {
   transform: scale(1.5);
 }
