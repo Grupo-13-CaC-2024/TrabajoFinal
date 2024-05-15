@@ -12,16 +12,31 @@ header {
 
 nav {
   display: flex;
+  justify-content: space-between;
   height: 6em;
-  background-color: rgb(40, 207, 110);
+  background-color: rgb(51, 90, 69);
 }
+
+a {
+  color: white;
+  text-decoration: none;
+}
+a:hover {
+  color: rgb(0, 255, 0);
+}
+
+.navLogos {
+  display: flex;
+  padding-left: 2em;
+  margin: 0.5em;
+}
+
 .navLinks {
   display: flex;
   align-items: center;
-  justify-content: space-around;
   gap: 1em;
+  margin-right: 3em;
 }
-
 .headerHollowKnight {
   width: 100%;
   height: auto;
@@ -90,6 +105,14 @@ ul {
   display: flex;
 }
 
+footer {
+  display: flex;
+  justify-content: center;
+  height: 10em;
+  background-color: rgb(51, 90, 69);
+  margin-top: 5em;
+}
+
 @media (max-width: 1250px) {
   .imageAndText,
   .textAndImage {
@@ -104,5 +127,12 @@ ul {
   }
   .textInRow {
     width: 70%;
+  }
+  .navLogos {
+    padding-left: 0em;
+    margin: 1.5em;
+  }
+  .navLinks {
+    margin-right: 1em;
   }
 }
