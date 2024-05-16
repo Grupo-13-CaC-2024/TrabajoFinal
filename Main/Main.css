@@ -1,19 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 html {
-  font-size: 62.5%;
+  /* font-size: 62.5%;  --- Lo pase a .contenedor para que no afecte a toda la pagina (Wally) */
   box-sizing: border-box;
 }
 
 header {
-  background-color: salmon;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 15vh;
-  border-radius: 50px;
+  width: 100%;
 }
 
-.titulo-header {
-  position: absolute;
+nav {
+  display: flex;
+  justify-content: space-between;
+  height: 6em;
+  background-color: rgb(51, 90, 69);
+}
+
+.navLogos {
+  display: flex;
+  padding-left: 2em;
+  margin: 0.5em;
+}
+
+.navLinks {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  margin-right: 3em;
+}
+
+.navLinks a {
+  color: white;
+  text-decoration: none;
+}
+
+.navLinks a:hover {
+  color: rgb(0, 255, 0);
 }
 
 .contenedor {
@@ -21,6 +46,7 @@ header {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+  font-size: 62.5%;
 }
 
 .RevetriaMatias {
@@ -86,4 +112,22 @@ header {
 
 .hollow-knight:hover {
   transform: scale(1.5);
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  height: 10em;
+  background-color: rgb(51, 90, 69);
+  margin-top: 5em;
+}
+
+@media (max-width: 1250px) {
+  .navLogos {
+    padding-left: 0em;
+    margin: 1.5em;
+  }
+  .navLinks {
+    margin-right: 1em;
+  }
 }
