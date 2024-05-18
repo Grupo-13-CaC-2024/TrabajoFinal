@@ -45,6 +45,34 @@ h3 {
   font-size: 1.2rem;
   color: #584e84;
 }
+/* section 1 */
+
+.section1 div {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.section1 figure {
+  position: relative;
+  height: 250px;
+  width: 350px;
+  overflow: hidden;
+  top: -75px;
+  border-radius: 6px;
+  box-shadow: 0 15px 25px #000000;
+  cursor: pointer;
+}
+
+.section1 figure img {
+  width: 100%;
+  height: 100%;
+}
+
+.section1 p {
+  padding-top: 50px;
+  font-family: "Bitter", serif;
+}
 
 /* Seccion Hero */
 
@@ -80,21 +108,14 @@ h3 {
   padding: 10px;
   border-radius: 20px;
   display: block;
-  transition: all 0.2s ease;
-}
-
-.container img {
-  height: 100%;
+  transition: all 500ms ease;
+  cursor: pointer;
 }
 
 .product-container {
   /* border: 2px solid red; */
   padding-top: 60px;
   margin-bottom: 40px;
-}
-
-.section1 {
-  text-align: start;
 }
 
 .product {
@@ -107,7 +128,7 @@ h3 {
 }
 
 .overlay {
-  transition: all 0.2s ease;
+  transition: all 500ms ease;
   opacity: 0;
   position: absolute;
   top: 50%;
@@ -115,6 +136,7 @@ h3 {
   transform: translate(-50%, -50%);
   text-align: center;
   font-family: "Bitter", serif;
+  cursor: pointer;
 }
 
 .overlay p {
@@ -125,6 +147,7 @@ h3 {
 
 .product:hover img {
   opacity: 0.2;
+  font-family: "Bitter", serif;
 }
 
 .product:hover .overlay {
