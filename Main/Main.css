@@ -8,6 +8,10 @@ html {
   box-sizing: border-box;
 }
 
+body {
+  background-color: rgb(4, 10, 3);
+}
+
 header {
   width: 100%;
 }
@@ -55,10 +59,11 @@ nav {
   border-radius: 3em;
   border: 2px solid #333;
   color: black;
-  background-image: url(images/assassins.jpg);
+  background-image: url(images/acu1.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  overflow: hidden;
 }
 
 .alan-wake2 {
@@ -85,7 +90,19 @@ nav {
   background-repeat: no-repeat;
 }
 
-.RevetriaMatias .alan-wake2 .hollow-knight .titulo {
+.lol {
+  width: 25em;
+  height: 30em;
+  border-radius: 3em;
+  border: 2px solid #333;
+  color: black;
+  background-image: url(images/lol.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.RevetriaMatias .titulo {
   position: absolute;
   top: 45%;
   left: 50%;
@@ -97,7 +114,7 @@ nav {
   cursor: pointer;
 }
 
-.RevetriaMatias .alan-wake2 .hollow-knight .titulo a {
+.RevetriaMatias .titulo a {
   text-decoration: none;
   color: #fff;
 }
@@ -111,6 +128,10 @@ nav {
 }
 
 .hollow-knight:hover {
+  transform: scale(1.5);
+}
+
+.lol:hover {
   transform: scale(1.5);
 }
 
