@@ -15,7 +15,7 @@ form.addEventListener("submit", (e) => {
   }
 
   if (password.value.length > 10) {
-    mensajes.push("La conrtaseña no debe tener más de 10 caracteres.");
+    mensajes.push("La contraseña no debe tener más de 10 caracteres.");
   }
 
   if (mensajes.length > 0) {
