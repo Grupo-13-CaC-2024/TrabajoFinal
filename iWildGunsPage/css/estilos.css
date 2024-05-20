@@ -7,7 +7,7 @@
 
 .navbar {
   padding: 2rem;
-  background-color: #f5f6f7;
+  background-color: #f7f5f7;
 }
 
 .navbar-collapse {
@@ -283,11 +283,11 @@ body .img-xxl img {
   .navbar-brand {
     display: none;
   }
-}
-
-@media (max-width: 768px) {
   body .img-xxl img {
     width: 95%;
+  }
+  .section3 h2 {
+    font-size: 1rem;
   }
 }
 
