@@ -1,6 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
 /* Reset */
 * {
   margin: 0;
+}
+
+/* Nav Gaming Zone */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  height: 6em;
+  background-color: rgb(51, 90, 69);
+  font-family: "Outfit", sans-serif;
+}
+
+.navLogos {
+  display: flex;
+  padding-left: 2em;
+  margin: 0.5em;
+}
+
+.navLinks {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  margin-right: 3em;
+}
+
+.navLinks a {
+  color: white;
+  text-decoration: none;
+}
+
+.navLinks a:hover {
+  color: rgb(0, 255, 0);
 }
 
 /* Barra de navegacion */
@@ -257,6 +291,14 @@ body .img-xxl img {
   width: 250px;
   height: 300px;
   padding: 15px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  height: 10em;
+  background-color: rgb(51, 90, 69);
+  margin-top: 5em;
 }
 
 /* Adaptable (Responsivo) */
