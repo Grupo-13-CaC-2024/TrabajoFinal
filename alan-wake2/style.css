@@ -1,6 +1,43 @@
 html {
   height: 100vh;
-  overflow: hidden;
+  overflow: visible;
+  margin: 0;
+}
+
+header {
+  width: 100%;
+  background-color: black;
+}
+
+nav {
+  display: flex;
+  position: relative;
+  z-index: 100;
+  justify-content: space-between;
+  height: 6em;
+  background-color: rgb(51, 90, 69);
+}
+
+.navLogos {
+  display: flex;
+  padding-left: 2em;
+  margin: 0.5em;
+}
+
+.navLinks {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  margin-right: 3em;
+}
+
+.navLinks a {
+  color: white;
+  text-decoration: none;
+}
+
+.navLinks a:hover {
+  color: rgb(0, 255, 0);
 }
 
 body {
@@ -67,7 +104,7 @@ body {
 }
 
 .text-main {
-  top: 30%;
+  top: 32%;
   left: 50%;
   position: absolute;
   font-family: "Franklin Gothic Medium";
@@ -101,10 +138,9 @@ body {
   color: rgba(160, 179, 184, 0.8);
   transform: scale(1, 1.1) translate(-50%, 10%);
   text-align: center;
-  
 }
 
-.text-footer a{
+.text-footer a {
   text-decoration: none;
 }
 a:link {
@@ -124,4 +160,12 @@ a:active {
   margin: auto;
   width: 50%;
   padding: 10px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  height: 10em;
+  background-color: rgb(51, 90, 69);
+  /* margin-top: 5em; */
 }
