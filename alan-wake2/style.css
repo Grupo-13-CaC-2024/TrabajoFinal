@@ -172,3 +172,14 @@ footer {
   background-color: rgb(51, 90, 69);
   /* margin-top: 5em; */
 }
+
+@media screen and (max-width: 600px) {
+  .text-sec {
+    font-size: 2vh;
+  }
+}
+@media screen and (max-width: 600px) {
+  .text-main {
+    font-size: 4vh;
+  }
+}
