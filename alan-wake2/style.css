@@ -32,6 +32,7 @@ nav {
   align-items: center;
   gap: 1em;
   margin-right: 3em;
+  white-space: nowrap;
 }
 
 .navLinks a {
