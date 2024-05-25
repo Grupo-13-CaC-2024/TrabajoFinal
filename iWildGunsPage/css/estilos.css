@@ -45,6 +45,7 @@
 }
 
 .navLinks a {
+  white-space: nowrap;
   color: white;
   font-size: 100%;
   text-decoration: none;
