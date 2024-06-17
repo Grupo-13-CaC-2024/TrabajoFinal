@@ -1,32 +1,24 @@
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
 
 * {
-  margin: 0;
-  padding: 0;
-}
-
-html {
-  /* font-size: 62.5%;  --- Lo pase a .contenedor para que no afecte a toda la pagina (Wally) */
   box-sizing: border-box;
+  margin: 0;
+  /* padding: 0; */
 }
 
 body {
   background-color: rgb(4, 10, 3);
 }
 
-header {
-  width: 100%;
-}
-
-nav {
+/* nav {
   display: flex;
   justify-content: space-between;
   height: 6em;
   background-color: rgb(51, 90, 69);
   font-family: "Outfit", sans-serif;
-}
+} */
 
-.navLogos {
+/* .navLogos {
   display: flex;
   padding-left: 2em;
   margin: 0.5em;
@@ -46,15 +38,25 @@ nav {
 
 .navLinks a:hover {
   color: rgb(0, 255, 0);
-}
+} */
 
-.contenedor {
+.main_contenedor {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   min-height: 60vh;
   font-size: 62.5%;
+  margin-bottom: 4rem;
+  gap: 1rem;
+}
+
+.title_1 {
+  text-align: center;
+  color: rgba(0, 201, 114, 0.5);
+  font-family: "Courier New", Courier, monospace;
+  padding: 0.8rem 0 1rem 0;
+  margin: 4rem 0 2rem 0;
 }
 
 .RevetriaMatias {
@@ -142,7 +144,7 @@ nav {
 footer {
   display: flex;
   justify-content: center;
-  height: 10em;
+  /* height: 10em; */
   background-color: rgb(51, 90, 69);
   margin-top: 5em;
 }

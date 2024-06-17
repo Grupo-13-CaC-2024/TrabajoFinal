@@ -7,7 +7,7 @@
 
 /* Nav Gaming Zone */
 
-.navcontainer {
+/* .navcontainer {
   margin-top: -6em;
   position: fixed;
   width: 100%;
@@ -53,12 +53,12 @@
 
 .navLinks a:hover {
   color: rgb(0, 255, 0);
-}
+} */
 
 /* Barra de navegacion */
 
 .navbar {
-  margin-top: 4.5em;
+  /* margin-top: 4.5em; */
   padding: 2rem;
   background-color: #f7f5f7;
 }
@@ -360,6 +360,7 @@ footer {
     font-size: 1rem;
   }
 }
+
 @media (max-width: 320px) {
   .section3 p {
     width: 100%;
