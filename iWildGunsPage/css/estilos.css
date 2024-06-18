@@ -5,6 +5,16 @@
   margin: 0;
 }
 
+span {
+  text-decoration: none;
+  color: white;
+}
+
+ul,
+li {
+  list-style-type: none;
+}
+
 /* Nav Gaming Zone */
 
 /* .navcontainer {
@@ -317,14 +327,14 @@ body .img-xxl img {
   height: 300px;
   padding: 15px;
 }
-
+/* 
 footer {
   display: flex;
   justify-content: center;
   height: 10em;
   background-color: rgb(51, 90, 69);
   margin-top: 5em;
-}
+} */
 
 /* Adaptable (Responsivo) */
 
