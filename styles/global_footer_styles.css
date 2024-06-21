@@ -9,6 +9,11 @@
   color: white;
 }
 
+.footer_container a {
+  color: white !important;
+  text-decoration: none !important;
+}
+
 .footer_item {
   flex-grow: 1;
 }
