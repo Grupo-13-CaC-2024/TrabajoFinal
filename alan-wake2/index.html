@@ -10,19 +10,33 @@
       type="image/x-icon"
     />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="../styles/global_nav_styles.css">
+    <link rel="stylesheet" href="../styles/global_footer_styles.css">
+    <script
+      src="https://kit.fontawesome.com/747d5d40f8.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
 
   <body>
-    <header>
-      <nav>
+    <header class="header">
+      <nav class="navcontainer">
         <div class="navLogos">
-          <img src="../Main/images/Logo.png" alt="Gaming Zone Logo" />
-          <img src="../Main/images/Texto.png" alt="Gaming Zone Texto" />
+          <div>
+            <img src="../Main/images/Logo.png" alt="Gaming Zone Logo" />
+          </div>
+          <div>
+            <img
+              src="../Main/images/Texto.png"
+              alt="Gaming Zone Texto"
+              class="img2"
+            />
+          </div>
         </div>
         <div class="navLinks">
-          <a href="../Main/Main.html">Home</a>
-          <a href="#">Acerca de</a>
-          <a href="#">Contacto</a>
+          <span><a class="" href="../index.html">Home</a></span>
+          <span><a href="#">Acerca de</a></span>
+          <span><a href="#">Contacto</a></span>
         </div>
       </nav>
     </header>
@@ -78,14 +92,36 @@
         <div class="text-footer"><small"><span>&copy;</span> 2024</small><br><br><a href="../Main/Main.html">Home</a></div>
     </div> -->
 
-    <footer>
-      <a href="#">
+    <footer class="footer_container">
+      <div class="footer_item links_container">
+        <span>
+          <a href="#"
+            ><i class="fa-brands fa-instagram"></i>Instagram/GamingZone</a
+          >
+        </span>
+        <span>
+          <a href="#"><i class="fa-brands fa-twitter"></i>Twiter/GamingZone</a>
+        </span>
+        <span>
+          <a href="#"
+            ><i class="fa-brands fa-facebook"></i>Facebook/GamingZone</a
+          >
+        </span>
+        <span>
+          <a href="#">
+            <i class="fa-brands fa-youtube"></i>Youtube/GamingZone</a
+          >
+        </span>
+      </div>
+      <div class="footer_item div_img_footer">
         <img
-          src="../Main/images/LogoYtexto.png"
+          src="../Main/images/Logo.png"
           alt="Gaming Zone Logo y Texto"
-          height="150px"
         />
-      </a>
+      </div>
+      <div class="footer_item">
+        <p>@CopyRight2024</p>
+      </div>
     </footer>
   </body>
 </html>

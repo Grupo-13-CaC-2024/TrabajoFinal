@@ -1,46 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
 
+
+
 html {
   height: 100vh;
   overflow: visible;
   margin: 0;
-}
-
-header {
-  width: 100%;
-  background-color: black;
-}
-
-nav {
-  display: flex;
-  position: relative;
-  z-index: 100;
-  justify-content: space-between;
-  height: 6em;
-  background-color: rgb(51, 90, 69);
-  font-family: "Outfit", sans-serif;
-}
-
-.navLogos {
-  display: flex;
-  padding-left: 2em;
-  margin: 0.5em;
-}
-
-.navLinks {
-  display: flex;
-  align-items: center;
-  gap: 1em;
-  margin-right: 3em;
-}
-
-.navLinks a {
-  color: white;
-  text-decoration: none;
-}
-
-.navLinks a:hover {
-  color: rgb(0, 255, 0);
 }
 
 body {

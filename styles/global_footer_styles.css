@@ -9,9 +9,13 @@
   color: white;
 }
 
-.footer_container a {
-  color: white !important;
-  text-decoration: none !important;
+.footer_container a { 
+  color: white ;
+  text-decoration: none ;
+}
+
+span a:hover {
+  color: rgb(0, 255, 0);
 }
 
 .footer_item {

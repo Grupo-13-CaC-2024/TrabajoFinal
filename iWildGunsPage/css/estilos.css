@@ -272,7 +272,6 @@ body .img-xxl img {
 .section3 .titulo {
   display: flex;
   text-align: center;
-  z-index: 50;
   /* align-items: start; */
 }
 

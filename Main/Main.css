@@ -59,6 +59,10 @@ body {
   margin: 4rem 0 2rem 0;
 }
 
+.main_contenedor div {
+  cursor: pointer;
+}
+
 .RevetriaMatias {
   width: 25em;
   height: 30em;
